@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-warrant"
+version = "0.1.0"
+description = ""
+authors = ["Collin Caram <collin@nubrakes.com>"]
+readme = "README.md"
+packages = [{include = "django_warrant"}]
+
+[tool.poetry.dependencies]
+python = "3.7.14"
+Django = "1.11.29"
+django-braces = "1.11.0"
+django-crispy-forms = "1.6.1"
+django-extensions = "1.7.7"
+warrant = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
