@@ -137,6 +137,14 @@ python-versions = "*"
 six = ">=1.2"
 
 [[package]]
+name = "django-utils-six"
+version = "2.0"
+description = "Forward compatibility django.utils.six for Django 3"
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[[package]]
 name = "ecdsa"
 version = "0.18.0"
 description = "ECDSA cryptographic signature library (pure python)"
@@ -329,7 +337,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7,<4"
-content-hash = "53c05a440c9b45a3eca1f8ce8f081aea26889322f449c79f9f7f82fddc60549a"
+content-hash = "3d9de9a8c3cfa730429f55a748810c794a1ef74ad0858a7bd5c64d08a1fde12b"
 
 [metadata.files]
 asgiref = [
@@ -531,6 +539,10 @@ django-crispy-forms = [
 django-extensions = [
     {file = "django-extensions-1.7.7.tar.gz", hash = "sha256:10733e2611444de3ec67497f6a1a641574d58a1b0235a8bcd7a561b50bc4c3e0"},
     {file = "django_extensions-1.7.7-py2.py3-none-any.whl", hash = "sha256:ae69b1e33815d0baab7c14114af05840812f395a758bd45e80cf32548fbd6981"},
+]
+django-utils-six = [
+    {file = "django-utils-six-2.0.tar.gz", hash = "sha256:4ef9d20de679a5b2448429476452493661fe08f23d6e788a8e9816ec05e3c5b0"},
+    {file = "django_utils_six-2.0-py3-none-any.whl", hash = "sha256:8f0e77289d911069a6a15bab5a25ccf2c0fcb8fc4177461dd17470cfdeb94aa6"},
 ]
 ecdsa = [
     {file = "ecdsa-0.18.0-py2.py3-none-any.whl", hash = "sha256:80600258e7ed2f16b9aa1d7c295bd70194109ad5a30fdee0eaeefef1d4c559dd"},
