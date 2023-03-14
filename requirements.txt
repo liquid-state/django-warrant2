@@ -1,13 +1,12 @@
-boto3==1.26.4
-botocore==1.29.4
+boto3>=1.26.4
+botocore>=1.29.4
 certifi==2022.9.24
 charset-normalizer==2.1.1
-Django==1.11.29
+Django>=3.2
 django-braces==1.11.0
 django-crispy-forms==1.6.1
 django-extensions==1.7.7
 django-utils-six==2.0
--e git+https://github.com/collinc777/django-warrant.git@8604d8327e75b01c52009d8f34141f05fc30b72a#egg=django_warrant
 ecdsa==0.18.0
 envs==1.4
 idna==3.4
@@ -22,4 +21,4 @@ rsa==4.9
 s3transfer==0.6.0
 six==1.16.0
 urllib3==1.26.12
-warrant==0.2.0
+pycognito==2022.12.0

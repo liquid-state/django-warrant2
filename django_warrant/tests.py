@@ -17,7 +17,7 @@ from django.utils.six import iteritems
 
 from django_warrant.backend import CognitoBackend, CognitoUser
 from django_warrant.middleware import APIKeyMiddleware
-from warrant import Cognito
+from pycognito import Cognito
 
 def set_tokens(cls, *args, **kwargs):
     cls.access_token = 'accesstoken'
